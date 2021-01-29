@@ -1,4 +1,5 @@
 #include "stats.h"
+#ifdef NAN
 
 struct Stats compute_statistics(const float* numberset, int setlength) {
     struct Stats s;
@@ -47,3 +48,4 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
 
 int emailAlertCallCount = 0;
 int ledAlertCallCount = 0;
+#endif
