@@ -30,7 +30,8 @@ TEST_CASE("average is NaN for empty array") {
     
     //Use https://stackoverflow.com/questions/1923837/how-to-use-nan-and-inf-in-c
 }
-/*
+
+
 TEST_CASE("raises alerts when max is greater than threshold") {
     // create additional .c and .h files
     // containing the emailAlerter, ledAlerter functions
@@ -48,5 +49,5 @@ TEST_CASE("raises alerts when max is greater than threshold") {
     REQUIRE(emailAlertCallCount == 1);
     REQUIRE(ledAlertCallCount == 1);
 }
-*/
+
 #endif
