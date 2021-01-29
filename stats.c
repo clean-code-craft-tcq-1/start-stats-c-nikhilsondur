@@ -12,9 +12,9 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
     
     if(setlength == 0)       //Condition to check for empty array and return NaN.
     {
-    s.average = NaN;
-    s.min = NaN;
-    s.max = NaN;
+    s.average = NAN;
+    s.min = NAN;
+    s.max = NAN;
    
     return s;
     }
