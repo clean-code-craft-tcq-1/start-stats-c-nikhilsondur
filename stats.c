@@ -9,6 +9,15 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
     float sum;
     int count = 0;
     
+    if(setlength == 0)       //Condition to check for empty array and return NaN.
+    {
+    s.average = NaN;
+    s.min = NaN;
+    s.max = NaN;
+   
+    return s;
+    }
+    
     while(count < setlength) //using while loop to find the average.
     {
      sum+=numberset[count];   
